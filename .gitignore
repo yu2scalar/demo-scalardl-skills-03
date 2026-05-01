@@ -13,8 +13,9 @@
 # Compiled bytecode
 **/compiled/
 
-# Generated Java sources (regenerated from definitions/ on demand)
-**/generated/
+# Note: generated/ is tracked in this demo repo so reviewers can see the
+# rendered Java without running ./gradlew render. Files here include both
+# scaffold-rendered V1_0_0 templates and any hand-rolled V1_0_x customisations.
 
 # Cert / private keys (never commit secrets)
 # Cert files are environment-specific; even public certs are excluded from this repo.
