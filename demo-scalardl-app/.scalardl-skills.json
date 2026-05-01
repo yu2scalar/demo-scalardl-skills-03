@@ -1,0 +1,14 @@
+{
+  "projectName": "demo-scalardl-app",
+  "groupId": "com.example",
+  "packageName": "com.example.demoscalardl",
+  "projectDescription": "Spring Boot demo for the ScalarDL Java Client SDK",
+  "scalardlSdkVersion": "3.13.0",
+  "targetScalardlMinVersion": "3.13.0",
+  "springBootVersion": "3.5.7",
+  "javaVersion": "17",
+  "clientEntityId": "client",
+  "auditorEnabled": true,
+  "createdBy": "scaffold-scalardl-springboot-app v0.3.0",
+  "createdAt": "2026-05-01T04:16:27Z"
+}

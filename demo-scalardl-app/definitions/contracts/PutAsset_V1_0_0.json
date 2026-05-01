@@ -1,0 +1,12 @@
+{
+  "name" : "PutAsset",
+  "version" : "1.0.0",
+  "packageName" : "com.example.demoscalardl.contracts",
+  "op" : "PUT_ASSET",
+  "assetIdFields" : [ "location", "item" ],
+  "sampleInput" : {
+    "location" : "A",
+    "item" : "x",
+    "qty" : 1000
+  }
+}

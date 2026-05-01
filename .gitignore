@@ -1,0 +1,29 @@
+# Build / IDE
+**/build/
+**/.gradle/
+**/out/
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+*.swp
+
+# Compiled bytecode
+**/compiled/
+
+# Generated Java sources (regenerated from definitions/ on demand)
+**/generated/
+
+# Cert / private keys (never commit secrets)
+# Cert files are environment-specific; even public certs are excluded from this repo.
+**/cert/*.key
+**/cert/*.pem
+**/cert/*.pkcs8
+**/cert/*.cert
+**/cert/*.crt
+!**/cert/.gitkeep
+
+# Application local overrides
+**/src/main/resources/application-local.properties

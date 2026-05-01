@@ -1,0 +1,24 @@
+{
+  "name": "PutAssetsFunction",
+  "version": "1.0.0",
+  "packageName": "com.example.demoscalardl.functions",
+  "op": "UPSERT_RECORDS",
+  "linkedContractId": "PutAssetsV1_0_0",
+  "scalarDbSchema": {
+    "ns_postgres.inventory": {
+      "transaction": true,
+      "partition-key": ["location"],
+      "clustering-key": ["item ASC"],
+      "columns": {
+        "location": "TEXT",
+        "item": "TEXT",
+        "qty": "INT"
+      }
+    }
+  },
+  "mappings": {
+    "location": "location",
+    "item": "item",
+    "qty": "qty"
+  }
+}
